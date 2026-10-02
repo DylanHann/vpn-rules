@@ -193,5 +193,55 @@ rules:
   - DOMAIN-SUFFIX,steamcontent.com,PROXY
   - DOMAIN-SUFFIX,epicgames.com,PROXY
   - DOMAIN-SUFFIX,unrealengine.com,PROXY
+  # Adobe / Creative Cloud / Acrobat / Firefly / Fonts
+  # Source: https://helpx.adobe.com/business/enterprise/manage-services/configure-services/network-endpoints.html
+  - DOMAIN-SUFFIX,adobe.com,PROXY
+  - DOMAIN-SUFFIX,adobe.io,PROXY
+  - DOMAIN-SUFFIX,adobecc.com,PROXY
+  - DOMAIN-SUFFIX,adobecces.com,PROXY
+  - DOMAIN-SUFFIX,adobeccstatic.com,PROXY
+  - DOMAIN-SUFFIX,adobedtm.com,PROXY
+  - DOMAIN-SUFFIX,adobeexchange.com,PROXY
+  - DOMAIN-SUFFIX,adobegenuine.com,PROXY
+  - DOMAIN-SUFFIX,adobegov.com,PROXY
+  - DOMAIN-SUFFIX,adobe-identity.com,PROXY
+  - DOMAIN-SUFFIX,adobejanus.com,PROXY
+  - DOMAIN-SUFFIX,adobelogin.com,PROXY
+  - DOMAIN-SUFFIX,adobedc.net,PROXY
+  - DOMAIN-SUFFIX,adobeoobe.com,PROXY
+  - DOMAIN-SUFFIX,adobeprojectm.com,PROXY
+  - DOMAIN-SUFFIX,adobesc.com,PROXY
+  - DOMAIN-SUFFIX,adobe-services.com,PROXY
+  - DOMAIN-SUFFIX,adobess.com,PROXY
+  - DOMAIN-SUFFIX,adobesunbreak.com,PROXY
+  - DOMAIN-SUFFIX,adobetag.com,PROXY
+  - DOMAIN-SUFFIX,behance.net,PROXY
+  - DOMAIN-SUFFIX,ftcdn.net,PROXY
+  - DOMAIN-SUFFIX,typekit.com,PROXY
+  - DOMAIN-SUFFIX,typekit.net,PROXY
+  - DOMAIN-SUFFIX,astockcdn.net,PROXY
+  - DOMAIN-SUFFIX,adobesensei.io,PROXY
+  - DOMAIN-SUFFIX,myportfolio.com,PROXY
+  # Adobe-specific cloud storage and sign-in endpoints
+  - DOMAIN-SUFFIX,adbephotos.com,PROXY
+  - DOMAIN-SUFFIX,edgefonts.net,PROXY
+  - DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com,PROXY
+  - DOMAIN,adobe-api.arkoselabs.com,PROXY
+  - DOMAIN,adobe-verify.arkoselabs.com,PROXY
+  - DOMAIN,client-api.arkoselabs.com,PROXY
+  - DOMAIN,client-verify.arkoselabs.com,PROXY
+  - DOMAIN,aep-cs-blobstore-prod-va6-data.s3.amazonaws.com,PROXY
+  - DOMAIN,pre-signed-firefly-prod.s3-accelerate.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-masters.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-proxies.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-proxies-video-1080p.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-proxies-video-1080p-bt709.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-proxies-video-1080p709.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-proxies-video-360p.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-proxies-video-fullsize.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,revel-prod-us-west-2.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-asset-aux.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-cr-params.s3.us-west-2.amazonaws.com,PROXY
+  - DOMAIN,oz-prod-versions.s3.us-west-2.amazonaws.com,PROXY
   # 未匹配的流量直连（包括未收录的国外网站）
   - MATCH,DIRECT
